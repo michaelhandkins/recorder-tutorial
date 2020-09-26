@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2AC0793251ED29400977BC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AC0792251ED29400977BC2 /* AppDelegate.swift */; };
+		C2AC0795251ED29400977BC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AC0794251ED29400977BC2 /* SceneDelegate.swift */; };
+		C2AC0797251ED29400977BC2 /* RecorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AC0796251ED29400977BC2 /* RecorderViewController.swift */; };
+		C2AC079A251ED29400977BC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2AC0798251ED29400977BC2 /* Main.storyboard */; };
+		C2AC079C251ED29600977BC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2AC079B251ED29600977BC2 /* Assets.xcassets */; };
+		C2AC079F251ED29600977BC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2AC079D251ED29600977BC2 /* LaunchScreen.storyboard */; };
+		C2AC07AA251ED29600977BC2 /* Voice_Recorder__YT_Tutorial_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AC07A9251ED29600977BC2 /* Voice_Recorder__YT_Tutorial_Tests.swift */; };
+		C2AC07B5251ED29600977BC2 /* Voice_Recorder__YT_Tutorial_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AC07B4251ED29600977BC2 /* Voice_Recorder__YT_Tutorial_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2AC07A6251ED29600977BC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2AC0787251ED29400977BC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2AC078E251ED29400977BC2;
+			remoteInfo = "Voice Recorder (YT Tutorial)";
+		};
+		C2AC07B1251ED29600977BC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2AC0787251ED29400977BC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2AC078E251ED29400977BC2;
+			remoteInfo = "Voice Recorder (YT Tutorial)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2AC078F251ED29400977BC2 /* Voice Recorder (YT Tutorial).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Voice Recorder (YT Tutorial).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2AC0792251ED29400977BC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2AC0794251ED29400977BC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C2AC0796251ED29400977BC2 /* RecorderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderViewController.swift; sourceTree = "<group>"; };
+		C2AC0799251ED29400977BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2AC079B251ED29600977BC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2AC079E251ED29600977BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2AC07A0251ED29600977BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2AC07A5251ED29600977BC2 /* Voice Recorder (YT Tutorial)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Voice Recorder (YT Tutorial)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2AC07A9251ED29600977BC2 /* Voice_Recorder__YT_Tutorial_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voice_Recorder__YT_Tutorial_Tests.swift; sourceTree = "<group>"; };
+		C2AC07AB251ED29600977BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2AC07B0251ED29600977BC2 /* Voice Recorder (YT Tutorial)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Voice Recorder (YT Tutorial)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2AC07B4251ED29600977BC2 /* Voice_Recorder__YT_Tutorial_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voice_Recorder__YT_Tutorial_UITests.swift; sourceTree = "<group>"; };
+		C2AC07B6251ED29600977BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2AC078C251ED29400977BC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2AC07A2251ED29600977BC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2AC07AD251ED29600977BC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2AC0786251ED29400977BC2 = {
+			isa = PBXGroup;
+			children = (
+				C2AC0791251ED29400977BC2 /* Voice Recorder (YT Tutorial) */,
+				C2AC07A8251ED29600977BC2 /* Voice Recorder (YT Tutorial)Tests */,
+				C2AC07B3251ED29600977BC2 /* Voice Recorder (YT Tutorial)UITests */,
+				C2AC0790251ED29400977BC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2AC0790251ED29400977BC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2AC078F251ED29400977BC2 /* Voice Recorder (YT Tutorial).app */,
+				C2AC07A5251ED29600977BC2 /* Voice Recorder (YT Tutorial)Tests.xctest */,
+				C2AC07B0251ED29600977BC2 /* Voice Recorder (YT Tutorial)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2AC0791251ED29400977BC2 /* Voice Recorder (YT Tutorial) */ = {
+			isa = PBXGroup;
+			children = (
+				C2AC07C5251ED2ED00977BC2 /* Model */,
+				C2AC07C6251ED2F600977BC2 /* View */,
+				C2AC07C7251ED2FC00977BC2 /* Controller */,
+				C2AC0792251ED29400977BC2 /* AppDelegate.swift */,
+				C2AC0794251ED29400977BC2 /* SceneDelegate.swift */,
+				C2AC079B251ED29600977BC2 /* Assets.xcassets */,
+				C2AC079D251ED29600977BC2 /* LaunchScreen.storyboard */,
+				C2AC07A0251ED29600977BC2 /* Info.plist */,
+			);
+			path = "Voice Recorder (YT Tutorial)";
+			sourceTree = "<group>";
+		};
+		C2AC07A8251ED29600977BC2 /* Voice Recorder (YT Tutorial)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C2AC07A9251ED29600977BC2 /* Voice_Recorder__YT_Tutorial_Tests.swift */,
+				C2AC07AB251ED29600977BC2 /* Info.plist */,
+			);
+			path = "Voice Recorder (YT Tutorial)Tests";
+			sourceTree = "<group>";
+		};
+		C2AC07B3251ED29600977BC2 /* Voice Recorder (YT Tutorial)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2AC07B4251ED29600977BC2 /* Voice_Recorder__YT_Tutorial_UITests.swift */,
+				C2AC07B6251ED29600977BC2 /* Info.plist */,
+			);
+			path = "Voice Recorder (YT Tutorial)UITests";
+			sourceTree = "<group>";
+		};
+		C2AC07C5251ED2ED00977BC2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2AC07C6251ED2F600977BC2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C2AC0798251ED29400977BC2 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C2AC07C7251ED2FC00977BC2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C2AC0796251ED29400977BC2 /* RecorderViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2AC078E251ED29400977BC2 /* Voice Recorder (YT Tutorial) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2AC07B9251ED29600977BC2 /* Build configuration list for PBXNativeTarget "Voice Recorder (YT Tutorial)" */;
+			buildPhases = (
+				C2AC078B251ED29400977BC2 /* Sources */,
+				C2AC078C251ED29400977BC2 /* Frameworks */,
+				C2AC078D251ED29400977BC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Voice Recorder (YT Tutorial)";
+			productName = "Voice Recorder (YT Tutorial)";
+			productReference = C2AC078F251ED29400977BC2 /* Voice Recorder (YT Tutorial).app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2AC07A4251ED29600977BC2 /* Voice Recorder (YT Tutorial)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2AC07BC251ED29600977BC2 /* Build configuration list for PBXNativeTarget "Voice Recorder (YT Tutorial)Tests" */;
+			buildPhases = (
+				C2AC07A1251ED29600977BC2 /* Sources */,
+				C2AC07A2251ED29600977BC2 /* Frameworks */,
+				C2AC07A3251ED29600977BC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2AC07A7251ED29600977BC2 /* PBXTargetDependency */,
+			);
+			name = "Voice Recorder (YT Tutorial)Tests";
+			productName = "Voice Recorder (YT Tutorial)Tests";
+			productReference = C2AC07A5251ED29600977BC2 /* Voice Recorder (YT Tutorial)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2AC07AF251ED29600977BC2 /* Voice Recorder (YT Tutorial)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2AC07BF251ED29600977BC2 /* Build configuration list for PBXNativeTarget "Voice Recorder (YT Tutorial)UITests" */;
+			buildPhases = (
+				C2AC07AC251ED29600977BC2 /* Sources */,
+				C2AC07AD251ED29600977BC2 /* Frameworks */,
+				C2AC07AE251ED29600977BC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2AC07B2251ED29600977BC2 /* PBXTargetDependency */,
+			);
+			name = "Voice Recorder (YT Tutorial)UITests";
+			productName = "Voice Recorder (YT Tutorial)UITests";
+			productReference = C2AC07B0251ED29600977BC2 /* Voice Recorder (YT Tutorial)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2AC0787251ED29400977BC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					C2AC078E251ED29400977BC2 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					C2AC07A4251ED29600977BC2 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = C2AC078E251ED29400977BC2;
+					};
+					C2AC07AF251ED29600977BC2 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = C2AC078E251ED29400977BC2;
+					};
+				};
+			};
+			buildConfigurationList = C2AC078A251ED29400977BC2 /* Build configuration list for PBXProject "Voice Recorder (YT Tutorial)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2AC0786251ED29400977BC2;
+			productRefGroup = C2AC0790251ED29400977BC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2AC078E251ED29400977BC2 /* Voice Recorder (YT Tutorial) */,
+				C2AC07A4251ED29600977BC2 /* Voice Recorder (YT Tutorial)Tests */,
+				C2AC07AF251ED29600977BC2 /* Voice Recorder (YT Tutorial)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2AC078D251ED29400977BC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2AC079F251ED29600977BC2 /* LaunchScreen.storyboard in Resources */,
+				C2AC079C251ED29600977BC2 /* Assets.xcassets in Resources */,
+				C2AC079A251ED29400977BC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2AC07A3251ED29600977BC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2AC07AE251ED29600977BC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2AC078B251ED29400977BC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2AC0797251ED29400977BC2 /* RecorderViewController.swift in Sources */,
+				C2AC0793251ED29400977BC2 /* AppDelegate.swift in Sources */,
+				C2AC0795251ED29400977BC2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2AC07A1251ED29600977BC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2AC07AA251ED29600977BC2 /* Voice_Recorder__YT_Tutorial_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2AC07AC251ED29600977BC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2AC07B5251ED29600977BC2 /* Voice_Recorder__YT_Tutorial_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2AC07A7251ED29600977BC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2AC078E251ED29400977BC2 /* Voice Recorder (YT Tutorial) */;
+			targetProxy = C2AC07A6251ED29600977BC2 /* PBXContainerItemProxy */;
+		};
+		C2AC07B2251ED29600977BC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2AC078E251ED29400977BC2 /* Voice Recorder (YT Tutorial) */;
+			targetProxy = C2AC07B1251ED29600977BC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2AC0798251ED29400977BC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2AC0799251ED29400977BC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2AC079D251ED29600977BC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2AC079E251ED29600977BC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2AC07B7251ED29600977BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2AC07B8251ED29600977BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2AC07BA251ED29600977BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DT454V4AJ9;
+				INFOPLIST_FILE = "Voice Recorder (YT Tutorial)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelhandkins.Voice-Recorder--YT-Tutorial-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2AC07BB251ED29600977BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DT454V4AJ9;
+				INFOPLIST_FILE = "Voice Recorder (YT Tutorial)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelhandkins.Voice-Recorder--YT-Tutorial-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2AC07BD251ED29600977BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DT454V4AJ9;
+				INFOPLIST_FILE = "Voice Recorder (YT Tutorial)Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelhandkins.Voice-Recorder--YT-Tutorial-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voice Recorder (YT Tutorial).app/Voice Recorder (YT Tutorial)";
+			};
+			name = Debug;
+		};
+		C2AC07BE251ED29600977BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DT454V4AJ9;
+				INFOPLIST_FILE = "Voice Recorder (YT Tutorial)Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelhandkins.Voice-Recorder--YT-Tutorial-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voice Recorder (YT Tutorial).app/Voice Recorder (YT Tutorial)";
+			};
+			name = Release;
+		};
+		C2AC07C0251ED29600977BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DT454V4AJ9;
+				INFOPLIST_FILE = "Voice Recorder (YT Tutorial)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelhandkins.Voice-Recorder--YT-Tutorial-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Voice Recorder (YT Tutorial)";
+			};
+			name = Debug;
+		};
+		C2AC07C1251ED29600977BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DT454V4AJ9;
+				INFOPLIST_FILE = "Voice Recorder (YT Tutorial)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelhandkins.Voice-Recorder--YT-Tutorial-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Voice Recorder (YT Tutorial)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2AC078A251ED29400977BC2 /* Build configuration list for PBXProject "Voice Recorder (YT Tutorial)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2AC07B7251ED29600977BC2 /* Debug */,
+				C2AC07B8251ED29600977BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2AC07B9251ED29600977BC2 /* Build configuration list for PBXNativeTarget "Voice Recorder (YT Tutorial)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2AC07BA251ED29600977BC2 /* Debug */,
+				C2AC07BB251ED29600977BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2AC07BC251ED29600977BC2 /* Build configuration list for PBXNativeTarget "Voice Recorder (YT Tutorial)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2AC07BD251ED29600977BC2 /* Debug */,
+				C2AC07BE251ED29600977BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2AC07BF251ED29600977BC2 /* Build configuration list for PBXNativeTarget "Voice Recorder (YT Tutorial)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2AC07C0251ED29600977BC2 /* Debug */,
+				C2AC07C1251ED29600977BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2AC0787251ED29400977BC2 /* Project object */;
+}
