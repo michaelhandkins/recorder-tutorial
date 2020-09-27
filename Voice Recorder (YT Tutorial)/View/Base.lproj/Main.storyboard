@@ -36,6 +36,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="playBTN" destination="QqF-nm-bbj" id="O8I-Is-zkr"/>
+                        <outlet property="recordBTN" destination="FFH-FV-vHH" id="beK-EB-SOx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
